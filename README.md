@@ -5,16 +5,18 @@ This is a PHP script that connects to a MySQL database and retrieves data from t
 
 ## Prerequisites
 - PHP
-- MySQL
+- MySQL (or mariadb)
 - Apache server
 - `pip install mysql-connector-python`
 
 ## Installation
 1. Clone the repository or download the files.
-2. Create a MySQL database and import the database by running the script `setup_database.sh` to create the necessary table.
-3. Update the database credentials in the `index.php` file (`$servername`, `$username`, `$password`, `$dbname`).
-4. Place the files in your web server directory (e.g., htdocs for XAMPP).
-5. Access the script through the browser (e.g., http://localhost/index.php).
+2. Change the lines 13 in `setup_table.py` to match the path of the file `solarPanelData.csv` (example : `C:\Users\test\Documents\heatmap\solarPanelData.csv`)
+3. Change the lines 48 in `setup_database.sh` to match the path of the file `solarPanelData.csv`  
+4. Create a MySQL database and import the database by running the script `setup_database.sh` to create the necessary table.
+5. Update the database credentials in the `index.php` file (`$servername`, `$username`, `$password`, `$dbname`).
+6. Place the files in your web server directory (e.g., htdocs for XAMPP).
+7. Access the script through the browser (e.g., http://localhost/index.php).
 
 ## Usage
 1. Open the index.php in a web browser.
