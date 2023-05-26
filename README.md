@@ -6,7 +6,7 @@ This is a PHP script that connects to a MySQL database and retrieves data from t
 ## Prerequisites
 - PHP
 - MySQL (or mariadb)
-- Apache server
+- Apache server (or basic php)
 - `pip install mysql-connector-python`
 
 ## Installation
