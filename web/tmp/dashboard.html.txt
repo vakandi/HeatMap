@@ -1,0 +1,29 @@
+The code above represents an HTML document with a focus on creating a proof of concept for a web application that utilizes the Google Maps Heatmap Layer for data visualization.
+
+The document starts with the usual <!doctype html> declaration and sets the language to English (<html lang="en">).
+
+The <head> section contains meta information, including the character encoding (<meta charset="utf-8">) and the title of the web page (<title>).
+
+External stylesheets and scripts are included for Bootstrap, a popular CSS framework, and jQuery, a JavaScript library for simplifying HTML document manipulation.
+
+The Bootstrap stylesheets are loaded from CDNs (<link rel="stylesheet">).
+The jQuery library is loaded from a CDN (<script>).
+The Bootstrap JavaScript file is loaded from a CDN (<script>).
+The <body> section begins with a <div> element having the class "container." This class is used by Bootstrap to create a responsive layout within a fixed-width container.
+
+Inside the container, there is a <div> element with the class "page-header" containing an <h1> heading. The heading text is "Heatmap Layer Proof of Concept," and the <small> element adds the text "Dashboard" as a smaller subheading.
+
+Below the page header, there is an unordered list <ul> with the class "nav nav-pills" that serves as a navigation menu.
+
+The list items <li> represent individual navigation options.
+The first list item is marked as active (class="active"), indicating the current page.
+The navigation options include "Home," "View Map," and "Manage Datasets."
+The navigation options are wrapped in <a> tags, which define the links for each option.
+A <p> element is inserted for creating a small vertical space (&nbsp; is a non-breaking space entity).
+
+Another <div> element with the class "jumbotron" is added. The jumbotron is a Bootstrap component used for highlighting key content.
+
+Inside the jumbotron, there is an <h1> heading with the text "Hello there!" and a <p> element with a brief description of the proof of concept.
+The structure of the HTML document is closed with closing tags (</div>, </body>, </html>).
+
+Overall, this HTML code sets up the basic structure and layout for the proof of concept web application using Bootstrap, including navigation options 

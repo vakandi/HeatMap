@@ -1,0 +1,21 @@
+The code above represents an HTML document that displays a proof of concept dashboard for managing datasets using the Google Maps Heatmap Layer.
+The document starts with the usual <!doctype html> declaration and sets the language to English (<html lang="en">).
+The <head> section contains meta information, including the character encoding (<meta charset="utf-8">) and the title of the web page (<title>).
+External stylesheets and scripts are included for Bootstrap and jQuery, similar to the previous code snippet.
+The Bootstrap stylesheets are loaded from CDNs (<link rel="stylesheet">).
+The jQuery library is loaded from a CDN (<script>).
+The Bootstrap JavaScript file is also loaded from a CDN (<script>).
+The <body> section begins with a <div> container (<div class="container">) to hold the content.
+Inside the container, a <div> with the class page-header is used to display the header of the page, containing the title "Heatmap Layer Proof of Concept" and the subheading "Datasets".
+The navigation bar is created using an unordered list (<ul>) with the class nav nav-pills.
+Each list item (<li>) represents a navigation option, and the class active is added to the "Manage Datasets" item to indicate the current page.
+A space is added using an empty <p> element (<p>&nbsp;</p>).
+A button with the class btn btn-primary and a glyphicon is included, allowing users to add a new dataset.
+Another space is added using an empty <p> element (<p>&nbsp;</p>).
+A <table> with the class table table-hover is used to display a list of datasets.
+The <thead> section defines the table headers: "Dataset," "Description," "Date Added," and "Functions."
+The <tbody> section contains the data rows of the table, with each dataset represented as a row (<tr>).
+The dataset information is provided in individual <td> elements: name, description, date added, and function buttons.
+The function buttons include "Edit" and "Delete" options represented as <button> elements with appropriate classes (btn btn-default and btn btn-danger).
+The closing tags (</div>, </body>, </html>) complete the HTML structure.
+Overall, this HTML code sets up a dashboard interface for managing datasets, displaying them in a table format with options to add, edit, and delete datasets.

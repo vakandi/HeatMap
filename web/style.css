@@ -1,0 +1,88 @@
+
+#panelTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+#panelTable th,
+#panelTable td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#panelTable th {
+  background-color: #f2f2f2;
+}
+
+#panelTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#panelTable tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 500px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-container input[type=text] {
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  width: 75%;
+  background: #f1f1f1;
+}
+
+.search-container button {
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #0b7dda;
+}
+
+.solar-panel-data-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.solar-panel-data-container h2 {
+  text-align: center;
+}
+
+#solar-panel-data-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#solar-panel-data-list li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+}
+
+#solar-panel-data-list li:hover {
+  background-color: #ddd;
+}
