@@ -7,6 +7,7 @@ This is a PHP script that connects to a MySQL database and retrieves data from t
 - PHP
 - MySQL
 - Apache server
+- `pip install mysql-connector-python`
 
 ## Installation
 1. Clone the repository or download the files.
