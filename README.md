@@ -16,7 +16,7 @@ This is a PHP script that connects to a MySQL database and retrieves data from t
 4. Create a MySQL database and import the database by running the script `setup_database.sh` to create the necessary table.
 5. Update the database credentials in the `index.php` file (`$servername`, `$username`, `$password`, `$dbname`).
 6. Place the files in your web server directory (e.g., htdocs for XAMPP).
-7. Access the script through the browser (e.g., http://localhost/index.php).
+7. Access the website through the browser (e.g., http://localhost/index.php).
 
 ## Usage
 1. Open the index.php in a web browser.
