@@ -7,12 +7,6 @@ generate_location() {
     local lng
 
     case $city in
-        Others)
-            local min_lat=28.380552
-            local max_lat=39.520367
-            local min_lng=-4.665033
-            local max_lng=-9.484710
-            ;;
         Agadir)
             local min_lat=30.380552
             local max_lat=30.520367
@@ -115,7 +109,7 @@ echo '{
 echo "[" >> "$file_name"
 for ((i=0; i<choice; i++)); do
     # Generate a random city
-    cities=("Others" "Agadir" "Casablanca" "Taghazout" "Tangier" "Tetouan" "Martil" "Mediouna" "Skhirat" "Rabat" "Marrakech" "Oujda" "Kenitra" "Atlas")
+    cities=("Agadir" "Casablanca" "Taghazout" "Tangier" "Tetouan" "Martil" "Mediouna" "Skhirat" "Rabat" "Marrakech" "Oujda" "Kenitra" "Atlas")
     random_city=${cities[$RANDOM % ${#cities[@]}]}
     generate_location "$random_city" >> "$file_name"
     if [ $i -lt $((choice-1)) ]; then
